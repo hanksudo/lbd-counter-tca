@@ -55,7 +55,6 @@ struct CounterFeature {
                 return .none
             case .timerTick:
                 state.count += 1
-                state.fact = nil
                 return .none
             case .toggleTimerButtonTapped:
                 state.isTimerRunning.toggle()
