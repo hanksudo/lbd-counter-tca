@@ -6,6 +6,11 @@ xcuserdata
 DerivedData/
 *.xcodeproj
 
+
+### Xcode ###
+## User settings
+xcuserdata/
+
 ### Xcode Patch ###
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
