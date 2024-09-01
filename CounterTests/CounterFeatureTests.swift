@@ -6,8 +6,8 @@
 //
 
 import ComposableArchitecture
-import XCTest
 @testable import Counter
+import XCTest
 
 final class CounterFeatureTests: XCTestCase {
     func testCounter() async {
@@ -42,6 +42,22 @@ final class CounterFeatureTests: XCTestCase {
         
         await store.send(.toggleTimerButtonTapped) {
             $0.isTimerRunning = false
+        }
+    }
+    
+    func testNumberFact() async {
+        let store = await TestStore(initialState: CounterFeature.State()) {
+            CounterFeature()
+        } withDependencies: {
+            $0.numberFact.fetch = { "\($0) is a good number." }
+        }
+        
+        await store.send(.factButtonTapped) {
+            $0.isLoading = true
+        }
+        await store.receive(\.factResponse, timeout: .seconds(1)) {
+            $0.isLoading = false
+            $0.fact = "0 is a good number."
         }
     }
 }
