@@ -21,6 +21,7 @@
 		3676251C2C809D3400ED2269 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3676251B2C809D3400ED2269 /* CounterFeature.swift */; };
 		36D7BBE22C84A85E0030EE24 /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D7BBD32C84A2670030EE24 /* CounterFeatureTests.swift */; };
 		36DEB37A2C80B154000489CE /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DEB3792C80B154000489CE /* CounterView.swift */; };
+		36EAC1912CBBDC3500096623 /* ContactDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EAC1902CBBDC3500096623 /* ContactDetailFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		36D7BBD92C84A8570030EE24 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36DEB3792C80B154000489CE /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		36DEB37B2C80BCC9000489CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		36EAC1902CBBDC3500096623 /* ContactDetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				362BFFA92C84C24F0075DCD2 /* NumberFactClient.swift */,
 				3631AA8B2CBBA14300A3A659 /* ContactsFeature.swift */,
 				3631AA8D2CBBA39500A3A659 /* AddContactFeature.swift */,
+				36EAC1902CBBDC3500096623 /* ContactDetailFeature.swift */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				362BFFAB2C84C30E0075DCD2 /* NumberFactClient.swift in Sources */,
 				3676251C2C809D3400ED2269 /* CounterFeature.swift in Sources */,
 				3631AA8E2CBBA39500A3A659 /* AddContactFeature.swift in Sources */,
+				36EAC1912CBBDC3500096623 /* ContactDetailFeature.swift in Sources */,
 				3676250D2C809C9800ED2269 /* ContentView.swift in Sources */,
 				3631AA8C2CBBA14300A3A659 /* ContactsFeature.swift in Sources */,
 				3676250B2C809C9800ED2269 /* CounterApp.swift in Sources */,
